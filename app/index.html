@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Burgertopia - Home</title>
+	<link rel="stylesheet" href="styles/main.css">~
+</head>
+<body id="body">
+	
+    <header class="header" id="header">
+        <button onclick="toggleSidebar()" class="btn_icon_header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </button>
+        <div class="logo_header">
+            <img src="images/logo1.png" class= "img_logo_header" alt="logo_burgertopia">
+        </div>
+        <nav class="navigation_header" id="navigation_header">
+            <button onclick="toggleSidebar()" class="btn_icon_header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </button>
+            <a href="#home" class="active">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#order-online">Order Online</a>
+            <a href="#dark-kitchen">Dark Kitchen Live</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+      </header>
+    
+	<main tabindex="0" class="content" onfocus="closeSidebar()" id="content">
+		<section class="features">
+            <div style="width: 100%; overflow: hidden;">
+                <img src="images/feature-1.jpg" style="float: right; margin-left: 10px; width: 200px;">
+                <div style="width: calc(100% - 220px);">
+                  <h3 style="margin-top: 0; margin-bottom: 5px;">Título</h3>
+                  <p style="margin-top: 0; margin-bottom: 0;">Texto do parágrafo</p>
+                </div>
+              </div>
+			<div class="feature">
+				<img src="images/feature-1.jpg" alt="Feature 1">
+                <div class="text_feature">
+                    <h3>100% Fresh Beef</h3>
+			    	<p>Our burgers are made with 100% fresh beef, never frozen. We believe in using only the best ingredients to create the best tasting burgers.</p>
+                </div>
+			</div>
+			<div class="feature">
+				<img src="images/feature-2.jpg" alt="Feature 2">
+				<div class="text_feature">
+                    <h3>Handcrafted Burgers</h3>
+                    <p>Each burger is carefully crafted by our skilled chefs. We take pride in making sure that every burger is made to perfection.</p>
+                </div>    
+            </div>
+			<div class="feature">
+				<img src="images/feature-3.jpg" alt="Feature 3">
+				<div class="text_feature">
+                    <h3>Local Ingredients</h3>
+                    <p>We use only the freshest, locally-sourced ingredients to create our delicious burgers. Our commitment to quality and freshness is what sets us apart.</p>
+                </div>    
+            </div>
+		</section>
+		<section class="cta-banner">
+			<h2>Ready to try the best burgers in town?</h2>
+			<a href="#" class="cta">Order Now</a>
+		</section>
+        <section id="home">
+            <h2>Welcome to Burgertopia!</h2>
+            <p>Discover the best burgers in town</p>
+          </section>
+          
+          <section id="menu">
+            <h2>Our Menu</h2>
+            <p>Check out our delicious burger options</p>
+          </section>
+          
+          <section id="order">
+            <h2>Order Online</h2>
+            <p>Get your favorite burger delivered right to your doorstep</p>
+          </section>
+          
+          <section id="dark">
+            <h2>Dark Kitchen Live</h2>
+            <p>Experience our burgers in a whole new way</p>
+          </section>
+          
+          <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us today</p>
+          </section>
+	</main>
+	<footer>
+		<p>Burgertopia - All Rights Reserved</p>
+	</footer>
+</body>
+<script src="scripts/main.js"></script>
+
+</html>
+
